@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "279756522928",
+    "project_id": "fir-studentdb-c7918",
+    "storage_bucket": "fir-studentdb-c7918.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279756522928:android:8490f7cde2c9e761a10275",
+        "android_client_info": {
+          "package_name": "com.example.firebasestudentdb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJnOQ3I_rE0svIyBZ5B38IfUra2zbDWeM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

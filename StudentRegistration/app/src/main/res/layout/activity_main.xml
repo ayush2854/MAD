@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TableRow>
+            <TextView
+                android:text="Name"
+                android:padding="8dp"/>
+            <EditText
+                android:id="@+id/etName"
+                android:hint="Enter Name"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Roll No"
+                android:padding="8dp"/>
+            <EditText
+                android:id="@+id/etRoll"
+                android:hint="Enter Roll No"
+                android:inputType="number"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Course"
+                android:padding="8dp"/>
+            <EditText
+                android:id="@+id/etCourse"
+                android:hint="Enter Course"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Mobile"
+                android:padding="8dp"/>
+            <EditText
+                android:id="@+id/etMobile"
+                android:hint="Enter Mobile"
+                android:inputType="phone"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="16dp"/>
+
+    <ListView
+        android:id="@+id/listViewStudents"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>
